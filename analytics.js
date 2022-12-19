@@ -48,7 +48,7 @@ function afterPrint() {
       return;
     }
     isPrintPreview = false;
-/*
+
     div = document.getElementById('mm1');
     div.innerHTML = ""
     div = document.getElementById('mm2');
@@ -57,7 +57,7 @@ function afterPrint() {
     div.innerHTML = ""
     div = document.getElementById('mm4');
     div.innerHTML = ""
-*/
+
     div = document.getElementById('tt1');
     div.innerHTML = ""
     div = document.getElementById('tt2');
