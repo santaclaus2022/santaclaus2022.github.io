@@ -6,20 +6,20 @@ function beforePrint() {
     }
     isPrintPreview = true;
     div = document.getElementById('mm1');
-    div.innerHTML = "<div style=\"color:#FF00FF\">15</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">15</div>"
     div = document.getElementById('mm2');
-    div.innerHTML = "<div style=\"color:#FF00FF\">24</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">24</div>"
     div = document.getElementById('mm3');
-    div.innerHTML = "<div style=\"color:#FF00FF\">4</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">4</div>"
     div = document.getElementById('mm4');
-    div.innerHTML = "<div style=\"color:#FF00FF\">5</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">5</div>"
 
     div = document.getElementById('tt1');
     div.innerHTML = "<div style=\"color:#FF00FF\">9</div>"
     div = document.getElementById('tt2');
     div.innerHTML = "<div style=\"color:#FF00FF\">21</div>"
     div = document.getElementById('tt3');
-    div.innerHTML = "<div style=\"color:#FF00FF\">24</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF\">23</div>"
     div = document.getElementById('tt4');
     div.innerHTML = "<div style=\"color:#FF00FF\">11</div>"
 
@@ -48,7 +48,7 @@ function afterPrint() {
       return;
     }
     isPrintPreview = false;
-    
+/*
     div = document.getElementById('mm1');
     div.innerHTML = ""
     div = document.getElementById('mm2');
@@ -57,6 +57,7 @@ function afterPrint() {
     div.innerHTML = ""
     div = document.getElementById('mm4');
     div.innerHTML = ""
+*/
     div = document.getElementById('tt1');
     div.innerHTML = ""
     div = document.getElementById('tt2');
