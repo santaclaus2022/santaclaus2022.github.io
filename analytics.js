@@ -6,13 +6,13 @@ function beforePrint() {
     }
     isPrintPreview = true;
     div = document.getElementById('mm1');
-    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">15</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">15</div>";
     div = document.getElementById('mm2');
-    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">24</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">24</div>";
     div = document.getElementById('mm3');
-    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">4</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">4</div>";
     div = document.getElementById('mm4');
-    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">5</div>"
+    div.innerHTML = "<div style=\"color:#FF00FF;font-size: 1.0rem;\">5</div>";
 
     div = document.getElementById('tt1');
     div.innerHTML = "<div style=\"color:#FF00FF\">9</div>"
@@ -88,11 +88,11 @@ function afterPrint() {
 if (window.matchMedia) {
     window.matchMedia('print').addListener(function (mql) {
         if (mql.matches) {
-          console.log("reg before");
+          // console.log("reg before");
             beforePrint();
         }
         else {
-          console.log("reg after")
+          // console.log("reg after")
             afterPrint();
         }
     });
